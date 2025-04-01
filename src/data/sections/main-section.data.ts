@@ -11,7 +11,7 @@ const mainSectionData = {
   },
   image: import('@/assets/my-image.webp'),
   fullName: 'Rafael Nuñez',
-  role: 'React Developer',
+  role: 'Full-stack Developer',
   details: [
     { label: 'Phone', value: '+598 91 896 869', url: 'tel:+598 91 896 869' },
     { label: 'Email', value: 'rafanu219@gmail.com', url: 'mailto:rafanu219@gmail.com' },
@@ -24,7 +24,7 @@ const mainSectionData = {
     { label: 'GitHub', value: '/Rafanu219', url: 'https://github.com/Rafanu219' },
   ],
   description:
-    'I’m a dedicated React developer with 4 years of experience as a full-stack developer, working in agile teams. While I enjoy both frontend and backend development, I’ve grown more passionate about building great user experiences on the frontend, while keeping my backend skills sharp. I love collaborating with my team, offering help when needed, and creating a positive and enjoyable work environment. Always eager to learn and improve, I stay up to date with the latest technologies to build high-quality, efficient applications.',
+    'I’m a dedicated full-stack developer with 4 years of experience, working in agile teams. While I enjoy both frontend and backend development, I’ve grown more passionate about building great user experiences on the frontend, while keeping my backend skills sharp. I love collaborating with my team, offering help when needed, and creating a positive and enjoyable work environment. Always eager to learn and improve, I stay up to date with the latest technologies to build high-quality, efficient applications.',
   tags: [{ name: 'Open for contractor' }],
   action: {
     label: 'Download CV',
