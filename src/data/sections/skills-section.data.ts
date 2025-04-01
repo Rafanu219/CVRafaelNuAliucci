@@ -1,22 +1,19 @@
 import type { SkillsSection } from '@/types/sections/skills-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import {
-  apolloGraphql,
   astro,
   chakraUi,
   cypress,
   eslint,
   firebase,
-  mongoDb,
-  nestJs,
-  pnpm,
-  postgreSql,
   prettier,
   react,
   sass,
-  supabase,
+  nextJs,
   tailwindCss,
   typescript,
+  postgreSql,
+  vue,
 } from '../helpers/skills';
 
 const skillsSectionData = {
@@ -31,47 +28,39 @@ const skillsSectionData = {
       title: 'I already know',
       skills: [
         react({
-          level: 5,
-          description:
-            'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
+          level: 4,
         }),
         typescript({
           level: 4,
-          description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         }),
         sass({
           level: 4,
-          description: 'Nulla interdum pellentesque ultricies. Ut id eros commodo, ultrices ligula eu, elementum ante.',
         }),
-        chakraUi({ level: 5 }),
+        chakraUi({ level: 4 }),
         tailwindCss({ level: 3 }),
         prettier({ level: 5 }),
         eslint({
           level: 4,
-          description:
-            'Nulla tempor turpis at vehicula pharetra. Vestibulum tellus tortor, commodo et suscipit id, lobortis id nunc.',
         }),
-        nestJs({
+        postgreSql({
           level: 3,
-          description:
-            'Praesent feugiat ultricies iaculis. In posuere vehicula odio, sed consequat velit porta viverra.',
         }),
-        postgreSql({ level: 2 }),
-        mongoDb({ level: 1 }),
+        nextJs({
+          level: 3,
+        }),
         firebase({ level: 1 }),
-        pnpm({ level: 3 }),
+        cypress({ level: 1 }),
       ],
     },
     {
       title: 'I want to learn',
-      skills: [apolloGraphql(), astro(), supabase(), cypress()],
+      skills: [vue(), astro(), firebase()],
     },
     {
       title: 'I speak',
       skills: [
-        { icon: 'circle-flags:pl', name: 'Polish - native' },
+        { icon: 'circle-flags:es-variant', name: 'Spanish - native' },
         { icon: 'circle-flags:us', name: 'English - C1' },
-        { icon: 'circle-flags:es-variant', name: 'Spanish - B1' },
       ],
     },
   ],

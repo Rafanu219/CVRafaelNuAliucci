@@ -11,10 +11,10 @@ const config = {
     },
   },
   meta: {
-    title: 'Mark Freeman - Senior React Developer',
+    title: 'Rafael Nuñez - React Developer',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales ac dui at vestibulum. In condimentum metus id dui tincidunt, in blandit mi vehicula.',
-    faviconPath: '/src/assets/my-image.jpeg',
+      'I’m a dedicated React developer with 4 years of experience as a full-stack developer, working in agile teams. While I enjoy both frontend and backend development, I’ve grown more passionate about building great user experiences on the frontend, while keeping my backend skills sharp. I love collaborating with my team, offering help when needed, and creating a positive and enjoyable work environment. Always eager to learn and improve, I stay up to date with the latest technologies to build high-quality, efficient applications.',
+    faviconPath: '/src/assets/my-image.webp',
   },
   pdf: {
     footer:

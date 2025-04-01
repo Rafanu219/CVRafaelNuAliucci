@@ -45,7 +45,7 @@ export type Sections = {
   /**
    * Your projects and initiatives.
    */
-  portfolio: PortfolioSection;
+  portfolio?: PortfolioSection;
 
   /**
    * Your education degrees and certifications.
@@ -55,7 +55,7 @@ export type Sections = {
   /**
    * [WEB] Recommendations from your previous employers and people you worked with.
    */
-  testimonials: TestimonialsSection;
+  testimonials?: TestimonialsSection;
 
   /**
    * [WEB] List of sources you use to gain knowledge and inspiration.
