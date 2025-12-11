@@ -24,7 +24,7 @@ const mainSectionData = {
     { label: 'GitHub', value: '/Rafanu219', url: 'https://github.com/Rafanu219' },
   ],
   description:
-    'I’m a dedicated full-stack developer with 4 years of experience, working in agile teams. While I enjoy both frontend and backend development, I’ve grown more passionate about building great user experiences on the frontend, while keeping my backend skills sharp. I love collaborating with my team, offering help when needed, and creating a positive and enjoyable work environment. Always eager to learn and improve, I stay up to date with the latest technologies to build high-quality, efficient applications.',
+    'Full Stack Developer with 5+ years of experience creating scalable web applications. I specialize in the JavaScript ecosystem (React, Node.js, TypeScript), with a passion for crafting intuitive user experiences and clean code. I love collaborating in agile environments and constantly learning new technologies to build better software.',
   tags: [{ name: 'Open for contractor' }],
   action: {
     label: 'Download CV',

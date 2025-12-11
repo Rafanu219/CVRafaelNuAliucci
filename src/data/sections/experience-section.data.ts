@@ -17,10 +17,19 @@ const experienceSectionData = {
       image: import('@/assets/logos/qubika.webp'),
       dates: [new Date('2020-10'), null],
       description: `
-In my current role, I develop websites and web applications for clients, ensuring they are responsive, high-performing, and meet project requirements using an agile approach. I have worked on both new projects and existing ones, redesigning styles, improving performance, and fixing bugs to enhance overall quality.
 
-Over the years, I have consistently worked with React, adapting to different projects by using various libraries and backend technologies. 
-      `,
+Developing high-performance user interfaces with a focus on great UI/UX is my core strength. Whether building new features or refactoring legacy systems, I strive to make code cleaner, more efficient, and easier to maintain.
+
+Fostering a collaborative environment is essential to my process. I actively support the team through code reviews and mentoring, always looking for opportunities to learn new patterns and technologies to solve problems more effectively.
+
+<br />
+
+**Key Contributions:**
+- Led the frontend development of new applications from scratch, taking ownership of architecture and best practices.
+- Optimized application performance to ensure fast load times and smooth interactions.
+- Modernized legacy codebases, significantly improving maintainability.
+- Collaborated in agile teams to deliver high-quality software.
+`,
       tagsList: {
         title: 'Technologies',
         tags: [react(), nextJs(), typescript(), chakraUi(), tailwindCss(), sass(), firebase()],

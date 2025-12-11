@@ -30,6 +30,7 @@ const portfolioSectionData = {
     },
   },
   projects: [
+    /*
     {
       name: 'Golden Bulls',
       image: import('@/assets/portfolio/project-1.jpeg'),
@@ -123,6 +124,7 @@ const portfolioSectionData = {
       },
       links: [mockups({ url: '#' }), github({ url: '#' })],
     },
+    */
   ],
 } as const satisfies ReadonlyDeep<PortfolioSection>;
 

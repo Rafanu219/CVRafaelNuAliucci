@@ -14,6 +14,9 @@ import {
   typescript,
   postgreSql,
   vue,
+  node,
+  storybook,
+  mapbox,
 } from '../helpers/skills';
 
 const skillsSectionData = {
@@ -33,10 +36,15 @@ const skillsSectionData = {
         typescript({
           level: 4,
         }),
+        node({
+          level: 3,
+        }),
         sass({
           level: 4,
         }),
         chakraUi({ level: 4 }),
+        storybook({ level: 4 }),
+        mapbox({ level: 3 }),
         tailwindCss({ level: 3 }),
         prettier({ level: 5 }),
         eslint({

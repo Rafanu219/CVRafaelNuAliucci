@@ -88,6 +88,13 @@ export const nextJs = createSkillFactory({
   url: 'https://nextjs.org/',
 });
 
+export const node = createSkillFactory({
+  name: 'Node.js',
+  icon: 'simple-icons:nodedotjs',
+  iconColor: '#339933',
+  url: 'https://nodejs.org/',
+});
+
 export const nx = createSkillFactory({
   name: 'Nx',
   icon: 'simple-icons:nx',
@@ -135,6 +142,20 @@ export const sass = createSkillFactory({
   icon: 'simple-icons:sass',
   iconColor: '#CC6699',
   url: 'https://sass-lang.com/',
+});
+
+export const storybook = createSkillFactory({
+  name: 'Storybook',
+  icon: 'simple-icons:storybook',
+  iconColor: '#FF4785',
+  url: 'https://storybook.js.org/',
+});
+
+export const mapbox = createSkillFactory({
+  name: 'Mapbox',
+  icon: 'simple-icons:mapbox',
+  iconColor: '#000000',
+  url: 'https://www.mapbox.com/',
 });
 
 export const supabase = createSkillFactory({
