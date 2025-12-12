@@ -1,22 +1,5 @@
 import type { PortfolioSection } from '@/types/sections/portfolio-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { demo, github, mockups, website } from '../helpers/links';
-import {
-  chakraUi,
-  eslint,
-  firebase,
-  jest,
-  nestJs,
-  nextJs,
-  nx,
-  pnpm,
-  postgreSql,
-  prettier,
-  react,
-  sass,
-  tailwindCss,
-  typescript,
-} from '../helpers/skills';
 
 const portfolioSectionData = {
   config: {
