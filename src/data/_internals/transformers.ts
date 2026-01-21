@@ -1,6 +1,7 @@
 import type { Data } from '@/types/data';
 import type { Draft } from 'immer';
 import type { PreciseData } from './get-cv-data';
+import type { Project } from '@/types/sections/portfolio-section.types';
 
 export type DraftData = Draft<Data>;
 
@@ -10,7 +11,7 @@ type Sections = PreciseData['sections'];
 
 type SectionKey = keyof Sections;
 
-type ProjectName = Sections['portfolio']['projects'][number]['name'];
+type ProjectName = Project['name'];
 
 type JobRole = Sections['experience']['jobs'][number]['role'];
 
@@ -58,7 +59,9 @@ export const hideDiploma =
 export const hideProject =
   (name: ProjectName): DataTransformer =>
   (draft) => {
-    draft.sections.portfolio.projects = draft.sections.portfolio.projects.filter((project) => project.name !== name);
+    if (draft.sections.portfolio) {
+      draft.sections.portfolio.projects = draft.sections.portfolio.projects.filter((project) => project.name !== name);
+    }
   };
 
 export const hideSkillSet =
